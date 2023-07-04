@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        div[id*='box'] {
+            height: 100vh;
+            width: 100vw;
+            border: 1px solid black;
+        }
+
+        nav {
+            padding-left: 60px;
+        }
+
+        a {
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1" style="background-image: url(../image/homepage.jpg); background-size: cover;">
+        <a href="#box1">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box4">Menu</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box3">Review</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box2">About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box5">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div id="box4" style="background-image: url(../image/junkfood.jpg); background-size: cover;">
+        <center style="font-size: 35px; color: black;"><b>Menu</b></center>
+        <h3 style="font-size: 45px;"> Hotel Menu.</h3>
+        <h3 style="font-size: 35px;">Paneer</h3>
+        <ul style="font-size: 25px;">
+            <li>Panner Bhurji ..........100</li>
+            <li>Kadai Panner ...........110</li>
+            <li>Mix Veg ...................120</li>
+            <li>Butter Masala ..........110</li>
+            <li>Mutter Panner ..........130</li>
+            <li>Tikka Masala ...........150</li>
+        </ul>
+
+        <h3 style="font-size: 35px;">South Indian</h3>
+        <ul style="font-size: 25px;">
+            <li>Plain Dosa..............60</li>
+            <li>Masala Dosa..........75</li>
+            <li>Upma.....................45</li>
+            <li>Ildi Sambhar..........50</li>
+            <li>Vada Shambhar......50</li>
+        </ul>
+    </div>
+    <div id="box3" style="background-image: url(../image/Regestration.png); background-size: cover;">
+        <b>
+            <center style="color: white; font-size: 35px;">Share Your Experience Here!!</center>
+        </b> <br>
+        <br>
+        <br>
+
+        <center>
+            <form action="" style="font-size: 22px;">
+                <fieldset style="width: 10px;">
+                    <legend style="color: white;">Name</legend>
+                    <input type="text" placeholder="name" style="font-size: 20px;">
+                </fieldset> <br>
+
+                <fieldset style="width: 10px;">
+                    <legend style="color: white;">Email</legend>
+                    <input type="email" placeholder="email" style="font-size: 20px;">
+                </fieldset> <br>
+
+                <fieldset style="width: 10px;">
+                    <legend style="color: white;">Number</legend>
+                    <input type="number" placeholder="Number" style="font-size: 20px;">
+                </fieldset> <br>
+
+                <fieldset style="width: 10px;">
+                    <legend style="color: white;">Massage</legend>
+                    <input type="massage" placeholder="massage" style="font-size: 20px; height: 100px;">
+                </fieldset> <br>
+                <button style="width: 200px; height: 41px; font-size: 12px;"><b>Send The massage
+                    </b></button>
+            </form>
+        </center>
+    </div>
+
+    <div id="box2"
+        style="background-image: url(../image/about.jpg); color: white; font-size: 35px; background-size: cover;">
+        <b>
+            <center>About</center>
+        </b>
+        <h5
+            style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <i>Welcome To Mordern Resturent With </i><br> a Focus On Premium Food Tastes</h5>
+        <q style="font-size: 20px;">We are an independent, family run, neighbourhood restaurant
+            located <br> in the community of Crouch End, North London. We are passionate about <br> sustainably sourced
+            seafood and our aim is to deliver the highest quality food <br>and service in a relaxed, welcoming yet
+            vibrant environment</q> <br> <br> <br>
+
+
+    </div>
+    <div id="box5" style="height: 70vh; background-image: url(); background-repeat: no-repeat; background-size: cover;">
+        <center><img src="https://www.brandlineproducts.com/img/contact-us.png" width="500px"></center>
+        <center>
+            <h2 style="background-color: lightcoral;">Email ID : indianresturent@gmail.com</h2>
+            <center>
+                <h2 style="background-color: lightcoral;">Contact No : +91 12345 12345</h2>
+                <center>
+                    <h2 style="background-color: lightcoral;">Location : <a href="https://goo.gl/maps/6P46WLvvM3PV2qa98"
+                            style="font-size: 25px;" target="_blank">📍 Here</a></h2>
+                </center>
+    </div>
+</body>
+
+</html
